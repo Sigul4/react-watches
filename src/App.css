@@ -36,3 +36,36 @@
     transform: rotate(360deg);
   }
 }
+
+.Spoiler{
+  color: white;
+  text-align: center;
+  max-width: max-content;
+  background: blue;
+}
+
+.watch{
+  width: 400px;
+  height: 400px;
+  background: url('http://draw.asmer.fe.a-level.com.ua/ClockFace/ClockFace.png') center no-repeat;
+  border: 1px black solid;
+  margin: 60px;
+}
+
+.line{
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  left: 60px;
+}
+.hour-line{
+  z-index: 1;
+  transform: rotate(30deg);
+}
+.minute-line{
+  z-index: 2;
+}
+.second-line{
+  transform: rotate(120deg);
+  z-index: 3;
+}
